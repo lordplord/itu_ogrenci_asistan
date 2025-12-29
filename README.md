@@ -123,32 +123,39 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip ed
 Terminal veya komut satırını açarak projeyi bilgisayarınıza indirin:
 
 
+```bash
 git clone [https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git)
 cd PROJE_ADINIZ
-
+```
 ### Adım 2: Sanal Ortam Oluşturun
 Bağımlılıkların çakışmasını önlemek için izole bir sanal ortam oluşturun:
 
 # Windows için:
+```bash
+
 python -m venv venv
 .\venv\Scripts\activate
-
+```
 # macOS / Linux için:
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 ### Adım 3: Gerekli Kütüphaneleri Yükleyin
 Projenin çalışması için gerekli olan kütüphaneleri yükleyin:
-
 ```bash
 pip install -r requirements.txt
+```
 ### Adım 4: API Anahtarlarını Tanımlayın
 Projenin kök dizininde `.env` adında bir dosya oluşturun ve içine API anahtarlarınızı şu formatta ekleyin:
 
 ```env
 GOOGLE_API_KEY="Sizin_Gemini_API_Anahtariniz"
 GROQ_API_KEY="Sizin_Groq_API_Anahtariniz"
+```
 ### Adım 5: Uygulamayı Başlatın
 Kurulum tamamlandıktan sonra arayüzü başlatmak için şu komutu çalıştırın:
 
 ```bash
 streamlit run app/streamlit_app.py
+```
