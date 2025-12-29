@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # 1. AYARLAR
 # ==========================================
 # Buraya console.groq.com'dan aldığın anahtarı yapıştır
-GROQ_API_KEY = "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" 
+GROQ_API_KEY = "************************" 
 
 CSV_FILE = "ogrenci_isleri_veri_seti_1000.csv"
 TEST_SAMPLE_SIZE = 50  # Test edilecek soru sayısı
@@ -126,4 +126,5 @@ sns.heatmap(cm, annot=True, fmt='d', xticklabels=labels, yticklabels=labels, cma
 plt.title(f'Confusion Matrix (Model: {MODEL_NAME})')
 plt.xlabel('Tahmin Edilen')
 plt.ylabel('Gerçek')
+
 plt.show()
