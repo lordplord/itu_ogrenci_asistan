@@ -111,7 +111,7 @@ Tabloda en dikkat çekici fark **Precision** değerinde görülmektedir. Llama 3
 ### D) Sonuç
 Her iki model de kullanılabilecek seviyede olsa da; **Groq Llama 3.3 70B**, hem akademik ciddiyet gerektiren konulardaki yüksek kesinliği hem de genel doğruluk skoruyla projenin nihai modeli olarak belirlenmiştir. Gemini 2.5 Flash Lite ise daha düşük kaynak tüketimi gerektiren yan görevler için güçlü bir alternatif olarak konumlanabilir.
 
-## 6. Kurulum ve Çalıştırma
+## 5. Kurulum ve Çalıştırma
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
 
