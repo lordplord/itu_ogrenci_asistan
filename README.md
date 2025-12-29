@@ -125,6 +125,7 @@ Terminal veya komut satırını açarak projeyi bilgisayarınıza indirin:
 ```bash
 git clone [https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git)
 cd PROJE_ADINIZ
+```bash
 ### Adım 2: Sanal Ortam Oluşturun
 Bağımlılıkların çakışmasını önlemek için izole bir sanal ortam oluşturun:
 
