@@ -124,7 +124,7 @@ Terminal veya komut satırını açarak projeyi bilgisayarınıza indirin:
 
 
 ```bash
-git clone [https://github.com/lordplord/itu_ogrenci_asistan.git](https://github.com/lordplord/itu_ogrenci_asistan.git)
+git clone https://github.com/lordplord/itu_ogrenci_asistan.git
 cd itu_ogrenci_asistan
 ```
 ### Adım 2: Sanal Ortam Oluşturun
