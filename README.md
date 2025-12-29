@@ -124,8 +124,8 @@ Terminal veya komut satırını açarak projeyi bilgisayarınıza indirin:
 
 
 ```bash
-git clone [https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git)
-cd PROJE_ADINIZ
+git clone [https://github.com/lordplord/itu_ogrenci_asistan.git](https://github.com/lordplord/itu_ogrenci_asistan.git)
+cd itu_ogrenci_asistan
 ```
 ### Adım 2: Sanal Ortam Oluşturun
 Bağımlılıkların çakışmasını önlemek için izole bir sanal ortam oluşturun:
@@ -150,8 +150,8 @@ pip install -r requirements.txt
 Projenin kök dizininde `.env` adında bir dosya oluşturun ve içine API anahtarlarınızı şu formatta ekleyin:
 
 ```env
-GOOGLE_API_KEY="Sizin_Gemini_API_Anahtariniz"
-GROQ_API_KEY="Sizin_Groq_API_Anahtariniz"
+GOOGLE_API_KEY="*********************"
+GROQ_API_KEY="*********************"
 ```
 ### Adım 5: Uygulamayı Başlatın
 Kurulum tamamlandıktan sonra arayüzü başlatmak için şu komutu çalıştırın:
