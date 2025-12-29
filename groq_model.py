@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 # 1. AYARLAR
 # ==========================================
 # Buraya console.groq.com'dan aldığın anahtarı yapıştır
+# Güvenlikten dolayı API gizlenmiş.
 GROQ_API_KEY = "************************" 
 
 CSV_FILE = "ogrenci_isleri_veri_seti_1000.csv"
@@ -128,3 +129,4 @@ plt.xlabel('Tahmin Edilen')
 plt.ylabel('Gerçek')
 
 plt.show()
+
