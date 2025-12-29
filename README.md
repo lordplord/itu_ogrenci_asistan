@@ -159,4 +159,4 @@ Kurulum tamamlandıktan sonra arayüzü başlatmak için şu komutu çalıştır
 ```bash
 streamlit run app/streamlit_app.py
 ```
-Komutu çalıştırdıktan sonra tarayıcınızda otomatik olarak http://localhost:8501 adresi açılacak ve asistan kullanıma hazır hale gelecektir.
+--> Komutu çalıştırdıktan sonra tarayıcınızda otomatik olarak http://localhost:8501 adresi açılacak ve asistan kullanıma hazır hale gelecektir.
