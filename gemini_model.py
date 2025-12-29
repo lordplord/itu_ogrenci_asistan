@@ -8,6 +8,7 @@ import time
 # ==========================================
 # 1. AYARLAR (BURAYI DÜZENLE)
 # ==========================================
+# Güvenlikten dolayı API gizlenmiş.
 API_KEY = "*************************"  # <-- Aldığın anahtarı tırnak içine yapıştır
 CSV_FILE = "ogrenci_isleri_veri_seti_1000.csv" # Senin oluşturduğun CSV dosyasının adı
 TEST_SAMPLE_SIZE = 50  # Test edilecek soru sayısı (Hızlı sonuç için 50 ideal)
@@ -92,3 +93,4 @@ plt.ylabel('Gerçek Olan (Actual)')
 plt.title('Confusion Matrix (Hata Matrisi)')
 
 plt.show()
+
