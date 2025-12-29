@@ -130,13 +130,13 @@ cd PROJE_ADINIZ
 ### Adım 2: Sanal Ortam Oluşturun
 Bağımlılıkların çakışmasını önlemek için izole bir sanal ortam oluşturun:
 
-# Windows için:
+### Windows için:
 ```bash
 
 python -m venv venv
 .\venv\Scripts\activate
 ```
-# macOS / Linux için:
+### macOS / Linux için:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
@@ -159,3 +159,4 @@ Kurulum tamamlandıktan sonra arayüzü başlatmak için şu komutu çalıştır
 ```bash
 streamlit run app/streamlit_app.py
 ```
+Komutu çalıştırdıktan sonra tarayıcınızda otomatik olarak http://localhost:8501 adresi açılacak ve asistan kullanıma hazır hale gelecektir.
