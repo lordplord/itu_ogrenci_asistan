@@ -110,3 +110,45 @@ Tabloda en dikkat çekici fark **Precision** değerinde görülmektedir. Llama 3
 
 ### D) Sonuç
 Her iki model de kullanılabilecek seviyede olsa da; **Groq Llama 3.3 70B**, hem akademik ciddiyet gerektiren konulardaki yüksek kesinliği hem de genel doğruluk skoruyla projenin nihai modeli olarak belirlenmiştir. Gemini 2.5 Flash Lite ise daha düşük kaynak tüketimi gerektiren yan görevler için güçlü bir alternatif olarak konumlanabilir.
+
+## 6. Kurulum ve Çalıştırma
+
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
+
+### Ön Koşullar
+* Python 3.10 veya üzeri
+* Git
+
+### Adım 1: Projeyi Klonlayın
+Terminal veya komut satırını açarak projeyi bilgisayarınıza indirin:
+
+```bash
+git clone [https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git](https://github.com/KULLANICI_ADINIZ/PROJE_ADINIZ.git)
+cd PROJE_ADINIZ
+### Adım 2: Sanal Ortam Oluşturun
+Bağımlılıkların çakışmasını önlemek için izole bir sanal ortam oluşturun:
+
+```bash
+# Windows için:
+python -m venv venv
+.\venv\Scripts\activate
+
+# macOS / Linux için:
+python3 -m venv venv
+source venv/bin/activate
+### Adım 3: Gerekli Kütüphaneleri Yükleyin
+Projenin çalışması için gerekli olan kütüphaneleri yükleyin:
+
+```bash
+pip install -r requirements.txt
+### Adım 4: API Anahtarlarını Tanımlayın
+Projenin kök dizininde `.env` adında bir dosya oluşturun ve içine API anahtarlarınızı şu formatta ekleyin:
+
+```env
+GOOGLE_API_KEY="Sizin_Gemini_API_Anahtariniz"
+GROQ_API_KEY="Sizin_Groq_API_Anahtariniz"
+### Adım 5: Uygulamayı Başlatın
+Kurulum tamamlandıktan sonra arayüzü başlatmak için şu komutu çalıştırın:
+
+```bash
+streamlit run app/streamlit_app.py
