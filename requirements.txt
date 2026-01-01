@@ -3,4 +3,5 @@ groq
 google-generativeai
 pandas
 openpyxl
+
 python-dotenv
